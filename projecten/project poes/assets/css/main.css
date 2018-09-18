@@ -1,0 +1,39 @@
+body {
+margin: 0;
+animation: epilepsie linear;
+animation-duration: 50ms;
+animation-iteration-count: infinite;
+}
+@keyframes epilepsie {
+from {
+    background-color: red;
+}
+to {
+    background-color: green;
+}
+to {
+    background-color: yellow;
+}
+}
+.plaatje img {
+        display: block;
+        margin: auto;
+        margin-top: 10%;
+        animation: shake linear;
+        animation-duration: 100ms;
+        animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(5px, 5px) rotate(0deg); }
+    10% { transform: translate(-5px, -7px) rotate(-5deg); }
+    20% { transform: translate(-3px, 0px) rotate(5deg); }
+    30% { transform: translate(8px, 7px) rotate(0deg); }
+    40% { transform: translate(6px, -6px) rotate(5deg); }
+    50% { transform: translate(-6px, 8px) rotate(-5deg); }
+    60% { transform: translate(-8px, 6px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-5deg); }
+    80% { transform: translate(-6px, -6px) rotate(5deg); }
+    90% { transform: translate(7px, 6px) rotate(0deg); }
+    100% { transform: translate(7px, -7px) rotate(-5deg); }
+    
+}
