@@ -1,6 +1,14 @@
 * {
     margin: 0;
 }
+.motivatie {
+    margin: 15px;
+}
+.bronnenijst {
+    margin-right: auto;
+    width: 100%;
+}
+
 body {
     background-color: beige;
     padding-bottom: 60px;
@@ -110,6 +118,19 @@ body {
     margin-right: 25px;
     margin-top: 10px;
 }
+
 .intro {
     width: 75%;
+}
+
+.presentatieMotivatie {
+    display: inline;
+}
+
+.highlight {
+    font-style: bold;
+    text-decoration: underline;
+    display: inline;
+
+    
 }
